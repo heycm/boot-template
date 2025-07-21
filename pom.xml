@@ -13,6 +13,10 @@
     <modules>
         <module>cn-heycm-components</module>
         <module>cn-heycm-startup</module>
+        <module>cn-heycm-adapter</module>
+        <module>cn-heycm-application</module>
+        <module>cn-heycm-domain</module>
+        <module>cn-heycm-infrastructure</module>
     </modules>
 
     <properties>
