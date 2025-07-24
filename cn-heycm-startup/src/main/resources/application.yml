@@ -22,11 +22,11 @@ spring:
     default-property-inclusion: non_null
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.3.100:3306/bootapp?useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&cachePrepStmts=true&prepStmtCacheSize=250&prepStmtCacheSqlLimit=2048&useServerPrepStmts=true&tcpKeepAlive=true&maintainTimeStats=false
+    username: root
+    password: root123
     type: com.zaxxer.hikari.HikariDataSource
     hikari:
-      jdbc-url: http://127.0.0.1:3306/bootapp?useUnicode=true&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true&cachePrepStmts=true&prepStmtCacheSize=250&prepStmtCacheSqlLimit=2048&useServerPrepStmts=true&tcpKeepAlive=true&maintainTimeStats=false
-      username: root
-      password: root123
       pool-name: ${spring.application.name}-hkpool
       maximum-pool-size: 10
       minimum-idle: 10
@@ -36,7 +36,7 @@ spring:
       validation-timeout: 300
   data:
     redis:
-      host: localhost
+      host: 192.168.3.50
       port: 6379
       password: 123456
       database: 0
