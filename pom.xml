@@ -11,12 +11,12 @@
     <description>Boot模板</description>
 
     <modules>
-        <module>cn-heycm-components</module>
-        <module>cn-heycm-startup</module>
-        <module>cn-heycm-adapter</module>
+        <module>cn-heycm-api</module>
         <module>cn-heycm-application</module>
         <module>cn-heycm-domain</module>
         <module>cn-heycm-infrastructure</module>
+        <module>cn-heycm-components</module>
+        <module>cn-heycm-startup</module>
     </modules>
 
     <properties>

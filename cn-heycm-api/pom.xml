@@ -9,7 +9,7 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>cn-heycm-adapter</artifactId>
+  <artifactId>cn-heycm-api</artifactId>
   <description>服务接口适配层</description>
 
 </project>
